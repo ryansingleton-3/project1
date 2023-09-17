@@ -3,6 +3,9 @@
   "scripts": {
     "start": "node server.js"
   },
+  "engines": {
+    "node": ">=15.0.0"
+  },
   "author": "Ryan Singleton",
   "dependencies": {
     "dotenv": "^16.3.1",
