@@ -1,0 +1,33 @@
+# Get all contacts
+# GET http://localhost:3000/contacts
+
+
+# Get contact by ID
+# GET http://localhost:3000/contacts/6505f1b614358b9f4e11b147
+
+
+# Create Contact
+POST http://localhost:3000/contacts HTTP/1.1
+content-type: application/json
+
+{
+  "firstName": "Esther",
+  "lastName": "Singleton",
+  "email": "esthersingleton@gmail.com",
+  "favoriteColor": "Yellow",
+  "birthday": "10/12/2023"
+}
+
+PUT http://localhost:3000/contacts/6505f12514358b9f4e11b146 HTTP/1.1
+content-type: application/json
+
+
+{
+  "firstName": "Esther",
+  "lastName": "Singleton",
+  "email": "esthersingleton@gmail.com",
+  "favoriteColor": "Pink",
+  "birthday": "10/12/2023"
+}
+
+DELETE http://localhost:3000/contacts/650f11e0c72f0fd335c0341e
